@@ -17,5 +17,6 @@ public class HelloServerInitializer extends ChannelInitializer<SocketChannel>{
         // 通过SocketChannel去获取对应的管道
         ChannelPipeline pipeline = channel.pipeline();
         pipeline.addLast("HttpServerCodec", new HttpServerCodec());
+
     }
 }
