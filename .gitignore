@@ -1,0 +1,19 @@
+# Maven
+target/
+
+# Gradle files
+.gradle/
+build/
+
+# Log Files
+*.log
+
+# Intellij
+idea/
+*.iml
+*.xml
+*.rebel.xml.bak
+*.rebel-remote.xml.bak
+rebel.xml
+rebel-remote.xml
+

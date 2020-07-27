@@ -13,6 +13,7 @@ import io.netty.handler.codec.http.HttpServerCodec;
  */
 public class HelloServerInitializer extends ChannelInitializer<SocketChannel>{
 
+    @Override
     protected void initChannel(SocketChannel channel) throws Exception {
         // 通过SocketChannel去获取对应的管道
         ChannelPipeline pipeline = channel.pipeline();
